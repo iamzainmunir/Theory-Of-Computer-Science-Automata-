@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Zain_Munir_B15101155.jnlp">
+  <information>
+    <title>Zain_Munir_B15101155</title>
+    <vendor>Zain</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Zain_Munir_B15101155.jar" size="3751" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Zain_Munir_B15101155" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="zain_munir_b15101155.Zain_Munir_B15101155"  name="Zain_Munir_B15101155" />
+  <update check="always"/>
+</jnlp>

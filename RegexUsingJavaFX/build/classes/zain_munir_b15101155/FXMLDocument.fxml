@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="308.0" prefWidth="380.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="zain_munir_b15101155.FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonCheck" layoutX="87.0" layoutY="135.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="206.0" text="Check" />
+        <Label fx:id="label" layoutX="24.0" layoutY="8.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="345.0" text="RE for Identifier, int, float, String, char. If other than that &quot;Invalid&quot;" textFill="#7c0202" />
+      <TextField fx:id="inputTextBox" layoutX="143.0" layoutY="78.0" promptText="Enter identifire, char, string, int, float" />
+      <Label layoutX="90.0" layoutY="77.0" prefHeight="25.0" prefWidth="38.0" text="Input:" />
+      <Label layoutX="34.0" layoutY="192.0" text="Your input:" />
+      <Label layoutX="34.0" layoutY="229.0" text="Output:" />
+      <Label fx:id="inputLabel" layoutX="103.0" layoutY="193.0" />
+      <Label fx:id="outputLabel" layoutX="104.0" layoutY="229.0" />
+    </children>
+</AnchorPane>
